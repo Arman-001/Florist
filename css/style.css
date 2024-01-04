@@ -18,7 +18,7 @@
     width: 1920px;
     overflow: hidden;
     height: 1039px;
-    background: url(images/flowers.jpg) center/cover no-repeat;
+    background: url(..images/flowers.jpg) center/cover no-repeat;
 }
 .flowers{
     position: relative;
