@@ -1,0 +1,1007 @@
+*{
+    box-sizing: border-box;
+}
+
+/* -----------------------Микс БЭМ-----------------------*/
+.section{
+    position: relative;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1175px;
+    margin: 0 auto;
+}
+
+.florist{
+    width: 1920px;
+    overflow: hidden;
+    height: 1039px;
+    background: url(/src/images/flowers.jpg) center/cover no-repeat;
+}
+.flowers{
+    position: relative;
+    padding: 10px 10px 16px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+}
+.number {
+    width: 18px;
+    height: 21.339px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.line {
+    width: 70px;
+    height: 1px;
+    background-color: #FFF;
+}
+.line-big{
+    width: 85.5px;
+    height: 2px;
+    margin: 0 0 25px 0;
+    background-color: #fff;
+}
+.button-btn{
+    border: 1px solid #FFF;
+    background-color: #281014;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    transition: background-color .2s linear;
+}
+.button-btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+/* ----------------------Левая Сторона-----------------------*/
+
+.florist__spring {
+    position: absolute;
+    top: 87px;
+    left: 95px;
+    width: 137px;
+    height: 42px;
+    padding-top: 26px;
+    margin-bottom: 629px;
+}
+.spring__logo{
+    position: absolute;
+    top: 0;
+    left: 56px;
+    
+}
+.spring__line-one {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    width: 45px;
+    border: 1px solid #fff;
+    
+}
+.spring__line-two {
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    width: 45px;
+    border: 1px solid #fff;
+}
+.spring__text {
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+/* ========================== Социальные иконки слева ============= */
+.florist__social{
+    position: absolute;
+    top: 758px;
+    left: 95px;
+}
+.social__icons{
+    margin-bottom: 25px;
+    
+}
+.social__icons:last-child{
+    margin-bottom: 0;
+}
+
+/* ========================== ПРАВАЯ СТОРОНА ========================= */
+/* ========================== ПРАВАЯ СТОРОНА-НОМЕР ========================= */
+.florist__number{
+    position: absolute;
+    top: 112px;
+    right: 96px;
+}
+.florist__number a{
+    font-family: 'Forum';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+    
+}
+.florist__number a:hover{
+    color: #F45D5D;
+    cursor: pointer;
+}
+/* ========================== ПРАВАЯ СТОРОНА-КАТАЛОГ ========================= */
+.florist__catalog{
+    position: absolute;
+    top: 719px;
+    right: 35px;
+    
+}
+.florist__catalog-text{
+    display: inline-block;
+    font-family: 'Forum';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #FFF;
+    transform: rotate(90deg);
+}
+.florist__img-arow{
+    position: absolute;
+    top: 841px;
+    right: 111px;
+}
+
+/* ========================== Шапка ========================= */
+/* ==========================ОГРАНИЧИВАЮЩИЙ КОНТЕЙНЕР ========================= */
+
+.content__header{
+    padding: 112px 149px 0 149px;
+    margin-bottom: 189px;
+}
+
+.header__nav-menu{
+    display: flex;
+    justify-content: center;
+}
+.header__item{
+    margin-right: 60px;
+}
+.header__item a{
+    font-family: 'Forum';
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: color .2s linear;
+}
+.header__item a:hover{
+    color: #F45D5D;
+    cursor: pointer;
+}
+/* ==========================ТЕКСТ БОЛЬШОЙ ========================= */
+
+.content__title{
+    font-family: 'Forum';
+    font-size: 120px;
+    text-align: center;
+    color: #FFF;
+    letter-spacing: 10.8px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+/* ========================== КНОПКА  ========================= */
+
+.content__btn{
+    width: 210px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 157px;
+}
+.content__button{
+    width: 199px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.40);
+    font-family: Forum;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color .2s linear;
+}
+.content__button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+/* ==========================ЛОГО МЫШКА========================= */
+.content__logo-mouse{
+    width: 36.282px;
+    height: 56px;
+    margin: 0 auto;
+}
+/* ========================== ГРАДИЕНТ СНИЗУ========================= */
+.content__gradient{
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    width: 1920px;
+    height: 75px;
+    background: linear-gradient(0deg, #3B181E 0%, rgba(59, 24, 30, 0.00) 100%);
+}
+/* ========================== ВТОРАЯ СЕКЦИЯ========================= */
+/* ========================== ВТОРАЯ СЕКЦИЯ========================= */
+.section-two {
+    width: 1920px;
+    background: #3B181E;;
+}
+.section-two__catalog-text{
+    position: absolute;
+    top: 185px;
+    left: 131px;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 13.2px;
+    text-transform: uppercase;
+    opacity: 0.03;
+}
+.section-two__catalog-line{
+    position: absolute;
+    top: 227px;
+    left: 917px;
+    width: 85.5px;
+    background-color: #FFF;
+    height: 2px;
+}
+.section-two__container{
+    padding: 172px 0 116px 0;
+}
+.container__title {
+    font-family: Forum;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ========================== СЕКЦИЯ С КАРТИНКАМИ========================= */
+/* ========================== КАРТОЧКИ ========================= */
+.section-two__inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 256px 0;
+}
+.inner__image {
+    margin: 0px 40px 0 0;
+}
+.inner__content{
+    width: 350px;
+    height: 365px;
+    margin-bottom: 40px;
+}
+.inner__img{
+    position: relative;
+    width: 330px;
+    height: 223px;
+    margin: 10px 10px 20px 0px;
+}
+.inner__number{
+    position: absolute;
+    top: 50px;
+    left: 33px;
+}
+.inner__line{
+    position: absolute;
+    top: 67px;
+    left: 62px;
+}
+.inner__text {
+    width: 330px;
+    height: 52px;
+    margin: 0px 0px 10px 0px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.inner-link{
+    color: #FFF;
+    font-family: Forum;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.inner-link:hover{
+    color: #F45D5D;
+    cursor: pointer;
+}
+.inner__images{
+    width: 350px;
+    height: 387px;
+}
+.images__img{
+    margin-bottom: 20px;
+}
+.inner__box{
+    width: 350px;
+    height: 752px;
+    margin: 0 40px 0 0;
+}
+.inner__flowers-box{
+    margin: 0 40px 0 0;
+}
+.inner-holder{
+    width: 350px;
+    height: 512px;
+    margin: 0 0 40px 0;
+}
+.inner__img{
+    width: 330px;
+    height: 370px;
+}
+.inner__wrap{
+    width: 350px;
+    height: 288px;
+    margin: 0 0 40px 0;
+}
+/* =========================АКЦИОННЫЕ ПРЕДЛОЖЕНИЯ============== */
+.container__offer{
+    display: flex;
+    align-items: center;
+    margin: 0 0 270px 0;
+}
+.offer__promotion{
+    margin: 0 78px 0 0;
+}
+.promotion__title{
+    width: 381px;
+    height: 110px;
+    margin: 0 0 31px 0;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.promotion__subtitle{
+    width: 397px;
+    height: 62px;
+    margin: 0 0 31px 0;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+.promotion__btn{
+    width: 220px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.40);
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    transition: background-color 0.2s linear;
+}
+.promotion__btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.offer__img{
+    width: 697px;
+    height: 410px;
+}
+/* =========================КОМПОЗИЦИИ============== */
+.container__compositions{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 246px 0;
+}
+.compositions__image{
+    width: 1000px;
+    height: 855px;
+    margin: 0 114px 0 0;
+    
+}
+.compositions__inner{
+    align-self: center;
+}
+.compositions__title{
+    width: 514px;
+    height: 110px;
+    margin: 0 0 31px 0;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 50px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+.compositions__line{
+    margin: 0 0 25px 0;
+}
+.compositions__subtitle{
+    width: 614px;
+    height: 138px;
+    margin: 0 0 30px 0;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 18px;
+    line-height: 150%;
+}
+.compositions__btn{
+    width: 135px;
+    height: 50px;
+    margin: 0 0 100px 0;
+    background: rgba(0, 0, 0, 0.40);
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    transition: background-color 0.2s linear;
+}
+.compositions__btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.compositions__images{
+    display: flex;
+}
+.compositions__img{
+    margin: 0 23px 0 0;
+}
+.compositions__img:last-child{
+    margin-right: 0;
+}
+
+/* ==========================ПОДАРОЧНЫЕ КАРТЫ========================= */
+/* ==========================ПЕРВАЯ КАРТА ========================= */
+.container__inner{
+    position: relative;
+}
+.inner__title{
+    margin: 0 0 82px 0;
+}
+.inner__line-surprise{
+    position: absolute;
+    top: 52px;
+    left: 543px;
+    width: 85.5px;
+    background-color: #FFF;
+    height: 2px;
+}
+.inner__card{
+    display: flex;
+    width: 348px;
+    height: 574px;
+    margin: 0 0 271px 0;
+    
+}
+.card__box-01{
+    border-radius: 8px 8px 0px 0px;
+    background: #281014;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.40);
+    margin: 0 30px 0 0;
+}
+.box-01__image{
+    position: relative;
+    width: 348px;
+    height: 219px;
+    border-radius: 8px;
+    background: #262835;
+}
+.box-01__left-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box-01__right-img{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.box-01__number-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.box-01__number-left{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.box-01__flower-logo{
+    position: absolute;
+    top: 80.97px;
+    left: 153.57px;
+    width: 43.18px;
+    height: 32.502px;
+}
+.box-01__line-01{
+    position: absolute;
+    top: 97.9px;
+    left: 75.87px;
+    width: 66.582px;
+    border: 1px solid #fff;
+}
+.box-01__line-02{
+    position: absolute;
+    width: 68.061px;
+    top: 97.9px;
+    right: 73.86px;
+    border: 1px solid #fff;
+}
+.box-01__title{
+    position: absolute;
+    top: 117.43px;
+    left: 60px;
+    width: 250px;
+    height: 24.857px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.74px;
+    text-transform: uppercase;
+}
+.box-01__subtitle{
+    width: 348px;
+    height: 353px;
+    padding: 70px 0 0 0;
+    
+}
+.subtitle__text{
+    width: 285px;
+    height: 54px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 18px;
+    line-height: 150%;
+}
+.subtitle__image{
+    margin: 0 0 26px 0;
+}
+.subtitle__button{
+    width: 134px;
+    height: 50px;
+    margin: 0 auto;
+}
+.subtitle__btn{
+    width: 134px;
+    height: 50px;
+}
+/* ==========================ВТОРАЯ КАРТА========================= */
+.card__box-02{
+    width: 420px;
+    height: 694px;
+    border-radius: 10px 10px 0px 0px;
+    background: #281014;
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.50);
+    margin: 0 30px 0 0;
+}
+.box-02__image{
+    position: relative;
+    width: 420px;
+    height: 264px;
+    border-radius: 10px;
+    background: #0A0A0E;
+    margin: 0 0 99px 0;
+}
+.box-02__left-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.box-02__right-img-big{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.box-02__number-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 21px;
+    letter-spacing: 1.26px;
+}
+.box-02__number-left{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 21px;
+    letter-spacing: 1.26px;
+}
+.box-02__flower-logo{
+    position: absolute;
+    top: 95px;
+    right: 182px;
+    width: 52.114px;
+    height: 39.227px;
+}
+.box-02__line-01{
+    position: absolute;
+    top: 115px;
+    right: 89px;
+    width: 66.582px;
+    border: 1px solid #fff;
+}
+.box-02__line-02{
+    position: absolute;
+    top: 115px;
+    left: 91px;
+    width: 66.582px;
+    border: 1px solid #fff;
+}
+.box-02__title{
+    position: absolute;
+    top: 139px;
+    right: 30px;
+    width: 311px;
+    height: 30px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 35px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+.box-02__subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 18px;
+    line-height: 150%; 
+    margin: 0 0 27px 0;
+}
+.box-02__image-inner{
+    margin: 0 0 26px 0;
+}
+/* ==========================ПОСЛЕДНЯЯ СЕКЦИЯ========================= */
+.container__holder-image{
+    position: relative;
+}
+.holder-image__title{
+    margin: 0 0 90px 0;
+}
+.holder-image__line{
+    position: absolute;
+    top: 52px;
+    right: 540px;
+    width: 85.5px;
+    background-color: #FFF;
+    height: 2px;
+}
+.holder-image__container{
+    margin: 0 0 196px 0;
+}
+.holder-image__content-01{
+    display: flex;
+    margin: 0 0 34px 0;
+}
+.holder-image__img-gladiolus{
+    position: relative;
+    width: 370px;
+    height: 122px;
+    margin: 0 33px 0 0;
+    background-color: #D1BA5D;
+}
+.holder-image__img-gladiolus img{
+    position: absolute;
+    top: 10px;
+    left: 44px;
+    width: 102px;
+    height: 102px;
+}
+.img-gladiolus__text{
+    position: absolute;
+    top: 45px;
+    right: 43px;
+    color: #C61469;
+    font-family: Forum;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.holder-image__img-european{
+    position: relative;
+    width: 370px;
+    height: 122px;
+    margin: 0 30px 0 0;
+}
+.img-european__text{
+    position: absolute;
+    top: 38px;
+    right: 37px;
+    color: #76EBF2;
+    text-shadow: 0px 0px 10px #000;
+    font-family: Charm;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.holder-image__img-roses{
+    position: relative;
+    width: 370px;
+    height: 122px;
+    background-color: #E86060;
+}
+.img-roses__images-01{
+    position: absolute;
+    top: 34px;
+    right: 161px;
+}
+.img-roses__images-02{
+    position: absolute;
+    top: 10px;
+    right: 121px;
+}
+.img-roses__text{
+    position: absolute;
+    top: 49px;
+    left: 41px;
+    color: #000;
+    font-family: Cookie;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.img-roses__text-02{
+    position: absolute;
+    top: 49px;
+    right: 34px;
+    color: #000;
+    font-family: Cookie;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.holder-image__content-02{
+    display: flex;
+}
+.content-02__sakura{
+    position: relative;
+    width: 571px;
+    height: 190px;
+    margin: 0 34px 0 0;
+}
+.content-02__text{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.content-02__acvador{
+    position: relative;
+    width: 571px;
+    height: 190px;
+    margin: 0 0 34px 0;
+}
+.acvador__text-01{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.acvador__text-02{
+    position: absolute;
+    top: 78px;
+    left: 209px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.acvador__text-03{
+    position: absolute;
+    bottom: 10px;
+    right: 24px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.holder-image__content-03{
+    display: flex;
+}
+.content-03__first-flower{
+    position: relative;
+    width: 268px;
+    height: 90px;
+    background-color: #6B6B90;
+    margin: 0 34px 0 0;
+}
+.content-03__first-flower img{
+    position: absolute;
+    top: 10px;
+    left: 36px;
+}
+.first-flower__text{
+    position: absolute;
+    top: 23px;
+    right: 37px;
+    width: 115px;
+    height: 44px;
+    color: #FED110;
+    font-family: Forum;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.content-03__flower-world{
+    position: relative;
+    width: 269px;
+    height: 90px;
+    margin: 0 34px 0 0;
+}
+.flower-world__text{
+    position: absolute;
+    top: 33px;
+    right: 54px;
+    color: #FFF;
+    text-shadow: 0px 0px 13px #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.content-03__truck{
+    position: relative;
+    width: 269px;
+    height: 90px;
+    background-color: #3D3A3A;
+    margin: 0 34px 0 0;
+}
+.content-03__truck img{
+    position: absolute;
+    top: 13px;
+    left: 24px;
+}
+.truck__text{
+    position: absolute;
+    top: 37px;
+    right: 23px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.content-03__photo{
+    position: relative;
+    width: 268px;
+    height: 90px;
+    background-color: #111F29;
+}
+.content-03__photo img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.photo__text{
+    position: absolute;
+    top: 34px;
+    right: 11px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+/* ==========================FOOTER========================= */
+/* ==========================FOOTER========================= */
+.footer{
+    width: 1920px;
+    background: #3B181E;
+    padding-bottom: 64px;
+}
+.footer__line{
+    width: 1815.5px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.footer__link{
+    display: flex;
+    padding: 21px 91px 0 91px;
+    margin: 0 0 30px 0;
+}
+.link__inner{
+    display: flex;
+}
+.link__linkin a{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Forum;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.footer__link-social{
+    display: flex;
+    justify-content: center;
+
+}
+.link-social__insta{
+    margin-right: 50px;
+}
+.link-social__facebook{
+    margin-right: 50px;
+}
+.link-social__whatsapp{
+    margin-right: 50px;
+}
+.link-social__vk{
+    margin-right: 50px;
+}
+/* ==========================MEDIA========================= */
+/* ==========================MEDIA========================= */
+@media (max-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .section{
+        max-width: 1140px;
+    }
+    .content__title{
+        display: none;
+    }
+}
